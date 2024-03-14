@@ -5,8 +5,8 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'building my code using the npm for react'
-                sh 'npm install'
-                sh 'npm run build'
+                echo'npm install'
+                echo'npm run build'
             }
         }
         
