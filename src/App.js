@@ -32,6 +32,7 @@ function App() {
       <Router>
         <Routes>
           {/* Pass the userName as a prop to the Home component */}
+          {/* THIS COMMENT WWILL ALSO BE DISPLAYED IN THE ONCE WE PUSH  */}
           <Route path="/" element={<Home name={userName} />} />
           <Route path="/sign" element={<Signup />} />
           <Route path="/log" element={<Login />} />
