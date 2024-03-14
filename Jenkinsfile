@@ -4,7 +4,9 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'building my code using the tool Maven'
+                echo 'building my code using the npm for react'
+                sh 'npm install'
+                sh 'npm run build'
             }
         }
         
@@ -16,7 +18,7 @@ pipeline {
         
         stage('Code Analysis') {
             steps {
-                echo 'Executing code analysis using sonarcube'
+                echo 'Executing code analysis using Findbugs'
             }
         }
         
@@ -37,23 +39,22 @@ pipeline {
                 echo 'Executing the integration test on staging environment '
             }
         }
-        
         stage('Deploy to Production') {
             steps {
-                echo 'Production and deploying is done using server such as (e.g., AWS EC2 instance)...'
+                echo 'Production and deploying is done using server such as AWS service which is E2C'
             }
         }
     }
     post {
         success {
             emailext subject: "Pipeline '${currentBuild.fullDisplayName}'ssuccessfull",
-                      body: 'The buld was successfully executed!!!',
+                      body: 'This was  a successfull bulild executed!!!',
                       to: 'moulikmahajan2004@gmail.com',
                       attachLog: true
         }
         failure {
             emailext subject: "Pipeline '${currentBuild.fullDisplayName}' Failed!!",
-                      body: 'The build failed please recheck!!',
+                      body: 'This was failed please recheck!!',
                       to: 'moulikmahajan2004@gmail.com',
                       attachLog: true
         }
