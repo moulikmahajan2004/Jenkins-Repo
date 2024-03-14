@@ -1,0 +1,89 @@
+.class1{
+    background-color: rgb(169, 165, 165);
+}
+.UPLOAD 
+{
+    width: 70PX;
+    background-color: grey;
+    margin-right: 15px;
+
+}
+.point1{
+    text-align: left;
+    margin-left: 8px;   
+    font-size: large;
+}
+
+.Title
+{
+    margin-left: 15px;
+}
+.file
+{
+    margin-left:8px;
+}
+
+.add{
+   
+    border-color: black;
+    padding: 3px 5px;
+}
+
+.p3{
+    text-align: left;
+    margin-left: 15px;
+    margin-bottom: 2px;
+    
+}
+
+.tg{
+    width: 1233px;
+    padding: 2px;
+    margin-left: 12px;
+    border-color: black,3px;
+}
+
+.paragh{
+    height: 50px;
+    width: 98%;
+    border-color: black;
+    text-decoration: none;
+    border-width: 2px;
+    margin-left: 10px;
+}
+
+.point3{
+    height: 190px;
+    width: 98%;
+    border-color: black;
+    text-decoration: none;
+    border-width: 2px;
+    margin-left: 10px;
+    margin-top: -1%;
+}
+  
+.p1{
+    padding: 8px;
+    padding-bottom: 3px;
+    background-color: grey;
+    padding: 0 35px;
+    font-size: medium;
+    height: 20px;
+    width: 15%;
+    margin-left: 8px;
+}
+.article
+{
+    text-align: left;
+    margin-left: 5px;
+}
+
+.code
+{
+    padding: 10px;
+}
+.add
+{
+   margin-left: 9px;
+    width: 1230px;
+}

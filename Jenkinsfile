@@ -46,13 +46,13 @@ pipeline {
     }
     post {
         success {
-            emailext subject: "Pipeline '${currentBuild.fullDisplayName}' Successful",
+            emailext subject: "Pipeline '${currentBuild.fullDisplayName}'ssuccessfull",
                       body: 'The buld was successfully executed!!!',
                       to: 'moulikmahajan2004@gmail.com',
                       attachLog: true
         }
         failure {
-            emailext subject: "Pipeline '${currentBuild.fullDisplayName}' Failed",
+            emailext subject: "Pipeline '${currentBuild.fullDisplayName}' Failed!!",
                       body: 'The build failed please recheck!!',
                       to: 'moulikmahajan2004@gmail.com',
                       attachLog: true

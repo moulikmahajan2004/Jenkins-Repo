@@ -1,0 +1,23 @@
+.question-card {
+    width: 300px; /* Set the initial width of the card */
+    overflow: hidden;
+    transition: all 0.3s ease; /* Add a smooth transition effect */
+  
+    .card {
+      border: 1px solid #ccc;
+      padding: 16px;
+      margin: 8px;
+      background-color: #fff;
+      border-radius: 4px;
+    }
+  
+    h3 {
+      cursor: pointer; /* Add a pointer cursor to indicate interactivity */
+    }
+  
+    .expanded {
+      max-height: 300px; /* Set the maximum height when expanded */
+      width: 100%; /* Expand to full width when expanded */
+    }
+  }
+  

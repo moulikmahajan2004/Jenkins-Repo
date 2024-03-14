@@ -1,0 +1,57 @@
+.text1{
+    text-align: left;
+    margin-left: 7px;   
+    font-size: large;
+}
+.TITLE{
+margin-left:8px;
+}
+ 
+
+.text3{
+    text-align: left;
+    /* margin-left: 15px; */
+}
+
+.text4{
+    width: 1258px;
+    height: 180px;
+    border-width: 2px;
+    border-color: black;
+    margin-bottom: 15px;
+    /* margin-left: 10px; */
+}
+
+.Bt{
+    width: 1250px;
+    padding: 2px;
+    border-color: black;
+    padding: 3px 5px;
+}
+
+.Post{
+    text-align: left;
+    margin-left: 8px;   
+}
+
+.class1
+{
+    background-color: rgb(255, 255, 255);
+    /* align-items: flex-end; */
+}
+
+.B1{
+
+    width: 100PX;
+    padding: 8px;
+    text-align: center;
+    background-color: grey;
+    padding: 6px;
+      /* margin-left: 110px;   */
+    font-size: medium;
+    height: 30px;
+}
+.Tags
+{
+    margin-left: 8px;
+}
