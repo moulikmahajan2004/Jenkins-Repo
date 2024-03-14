@@ -6,6 +6,8 @@ function Home( props){
     <div className={styles.home}>
       <div className={styles.box}>
         <h3>DEV@DEAKIN</h3>
+        <h1>CREATED BY MOULIK </h1>  
+        {/* the above is added t show the working  */}
         <input className={styles.search} placeholder='search🔍'></input>
         <h3 className={styles.login}>
           POST
