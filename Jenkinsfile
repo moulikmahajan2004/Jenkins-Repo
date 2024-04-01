@@ -7,6 +7,7 @@ pipeline {
                 echo 'building my code using the npm for react'
                 echo'npm install'
                 echo'npm run build'
+                echo'build by moulik'
             }
         }
         
